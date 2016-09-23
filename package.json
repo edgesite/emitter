@@ -1,0 +1,41 @@
+{
+  "name": "emitter",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript EventEmitter for creating event-driven application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikuayanokozy/emitter.git"
+  },
+  "keywords": [
+    "event",
+    "emitter",
+    "pubsub",
+    "clientside"
+  ],
+  "author": "Riku Ayanokoji <me@rikua.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rikuayanokozy/emitter/issues"
+  },
+  "homepage": "https://github.com/rikuayanokozy/emitter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-jest": "^15.0.0",
+    "babel-preset-es2015": "^6.14.0",
+    "jest-cli": "^15.1.1"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "moduleFileExtensions": ["js", "json", "es6"],
+    "modulePathIgnorePatterns": ["<rootDir>/node_modules"]
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
