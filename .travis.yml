@@ -3,5 +3,5 @@ cache:
   - node_modules
 node_js:
   - "node"
-  - "4.0.x"
-  - "0.6.x"
+  - "4.0"
+  - "0.6"
